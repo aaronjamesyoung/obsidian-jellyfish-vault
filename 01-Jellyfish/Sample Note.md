@@ -2,7 +2,8 @@
 context: Personal
 type: Resource
 status: Active
-topic: Samples
+topic:
+  - Samples
 dateCreated: 2023-08-22
 ---
 

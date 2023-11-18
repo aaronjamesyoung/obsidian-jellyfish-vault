@@ -2,7 +2,8 @@
 context: Work
 type: Project
 status: Active
-topic: Client
+topic:
+  - Client
 dateCreated: 2023-08-22
 ---
 

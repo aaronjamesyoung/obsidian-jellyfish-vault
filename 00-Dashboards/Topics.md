@@ -8,6 +8,7 @@ Excludes fleeting notes.
 TABLE sort(rows.file.link) AS "Note"
 FROM "01-Jellyfish"
 WHERE status!="Archive" AND type!="Fleeting"
+FLATTEN topic
 GROUP BY topic
 ```
 
@@ -17,5 +18,6 @@ GROUP BY topic
 TABLE sort(rows.file.link) AS "Note"
 FROM "01-Jellyfish"
 WHERE status="Archive" AND type!="Fleeting"
+FLATTEN topic
 GROUP BY topic
 ```
